@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>ABOUT ME</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <style>
+
+        .content {
+            height: 100vh;
+        }
+
+        #img-1 {
+            border: 3px solid #000;
+            height: 25%;
+        }
+
+        #img-2 {
+            height: 5%;
+            padding-right: 90px;
+        }
+
+    </style>
+    <body>
+
+        <!-- navbar -->
+
+        <nav class="navbar navbar-light bg-light fixed-top" id="contentId">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder ps-3" href="#">About Me</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mp.html">My Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </nav>
+
+        <!-- navbar end -->
+
+        <!-- content -->
+
+        <div class="col-10 bg-body-secondary content ms-auto me-auto text-center pt-5">
+            <div class="border border-5 w-50 ms-auto me-auto text-center mt-5 bg-secondary-subtle rounded rounded-5">
+                <img src="Assets/abatukam.jpg" alt="foto" class="fs-6 mt-5 rounded rounded-4" id="img-1">
+                <p class="fs-4 pt-4 fst-italic">Guy who likes to travelling a lot</p>
+                <p class="fs-1">Satura Izhato Rufi</p>
+                <p class="fs-4 fst-italic">Born <br> 2007-1-8</p>
+                <p class="fs-4 "><i>Status</i> <br> <b>Alive</b> </p>
+
+            <div class="pt-4 pb-5">
+                <ul class="">
+                    <a href="https://open.spotify.com/user/317xpykcg4tdu3x2xdejdmccgtie?si=f4dd5e88b90d4db8" class=""><img src="Assets/Spotify_Logo_CMYK_Black.png" alt="Spotify" id="img-2"></a>
+                    <a href="https://instagram.com/breadinyourdadhead?igshid=YTQwZjQ0NmI0OA==" class=""><img src="Assets/instagram-logo.png" alt="Instagram" id="img-2"></a>
+                    <a href="https://github.com/AyamGorengMadura" class=""><img src="Assets/github-mark.png" alt="Github" id="img-2"></a>
+                </ul>
+            </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <!-- content end -->
+
+    </body>
+</html>
